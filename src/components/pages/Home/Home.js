@@ -1,9 +1,11 @@
 import React from 'react'
 
+
+
 function Home() {
     return (
-        <div>
-            
+        <div style={{"textAlign":"center"}}>
+            <p>Hello</p>
         </div>
     )
 }
