@@ -7,14 +7,13 @@ import Search from './components/pages/Search/Search.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
+    <div >
       <Navbar />
-      <Home />
-      <Search />
-      <ResultsCard />
-    
+      <div className="Container">
+        <Home />
+        <Search />
+        <ResultsCard />
+      </div>
     </div>
   );
 }
