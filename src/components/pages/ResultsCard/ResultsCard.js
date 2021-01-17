@@ -1,5 +1,16 @@
 import React from "react";
 
+class ResultsCard extends Component {
+  state = {
+    name: "",
+    occupation: "",
+    location: "",
+    results: []
+  };
+
+}
+
+//  should this be a render instead of a function?
 function ResultsCard(props) {
   return (
     <div className="card">
