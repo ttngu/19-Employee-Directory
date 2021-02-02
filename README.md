@@ -26,7 +26,10 @@ npm i
   <br>
 
   ## Usage
-  The deployed link can be found here:
+  The deployed link can be found [here] (https://shrouded-savannah-48325.herokuapp.com/)
+ 
+
+  ![Alt Text](https://github.com/ttngu/19-Employee-Directory/blob/main/Assets/screencap.gif)
   <br>
   <br>
 
