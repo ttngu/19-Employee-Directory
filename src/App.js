@@ -5,11 +5,9 @@ import User from './components/User';
 function App() {
   return (
     <div >
-      <div >
-        <Header />
-        <User />
+      <Header />
+      <User />
 
-      </div>
     </div>
   );
 }
