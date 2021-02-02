@@ -29,7 +29,7 @@ npm i
   The deployed link can be found here: https://shrouded-savannah-48325.herokuapp.com/
  
 
-  !Screen Cap](https://github.com/ttngu/19-Employee-Directory/blob/master/assets/screencap.gif)
+  ![Screen Cap](https://github.com/ttngu/19-Employee-Directory/blob/master/assets/screencap.gif)
   <br>
   <br>
 
