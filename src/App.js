@@ -1,9 +1,6 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Home from './components/pages/Home/Home.js'
-import ResultsCard from './components/pages/ResultsCard/ResultsCard';
-import Search from './components/pages/Search/Search.js'
-
+import Header from './components/Header';
+import User from './components/User';
 
 function App() {
   return (
@@ -11,6 +8,7 @@ function App() {
       <div className="Container">
         <Header />
         <User />
+
       </div>
     </div>
   );
