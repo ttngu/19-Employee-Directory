@@ -13,6 +13,9 @@ function Table() {
                         <th>Location</th>
                     </tr>
                 </thead>
+                <tbody>
+                    
+                </tbody>
             </table>
             
         </div>
