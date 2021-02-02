@@ -1,7 +1,7 @@
 import Dropdown from "react-bootstrap/Dropdown";
 import React from 'react'
 
-function Sort() {
+function Sort(props) {
     return (
         <div>
             <Dropdown className="mb-5">
