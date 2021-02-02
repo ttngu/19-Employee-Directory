@@ -1,5 +1,13 @@
 import React from 'react'
 
+const styles = {
+    header: {
+        backgroundColor: "white",
+        color: "black",
+        textShadow: "10px 10px 25px blue"
+    }
+};
+
 function Header() {
     return (
         <div className="jumbotron" style={styles.header}>
