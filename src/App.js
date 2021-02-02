@@ -8,11 +8,9 @@ import Search from './components/pages/Search/Search.js'
 function App() {
   return (
     <div >
-      <Navbar />
       <div className="Container">
-        <Home />
-        <Search />
-        <ResultsCard />
+        <Header />
+        <User />
       </div>
     </div>
   );
