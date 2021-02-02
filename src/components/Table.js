@@ -14,6 +14,15 @@ function Table() {
                     </tr>
                 </thead>
                 <tbody>
+                {props.users.map(user => (
+                    <tr key={user.login.uuid}>
+                        <td className="d-flex justify-content-center"><img src={user.picture.medium} alt="employee"/></td>
+                        <td className="text-center">{user.name.first} {user.name.last}</td>
+                        <td className="text-center">{user.email}</td>
+                        <td className="text-center">{user.phone}</td>
+                        <td className="text-center">{user.location.city}, {user.location.state}</td>
+                    </tr>
+                ))}
 
                 </tbody>
             </table>
